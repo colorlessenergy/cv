@@ -14,59 +14,67 @@
     content="Hi my name is Brian Munoz, I'm seeking a software developer position where I can apply my knowledge of web development to maintain or improve existing software applications and or create software applications.">
   <title>Brian Munoz - Resume - Long Beach, California</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:400,400i" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
   <div class="container">
     <header>
       <h1>Brian Munoz</h1>
-      <p>Long Beach, CA</p>
-      <p><span>brianmunozdev@gmail.com</span></p>
-      <p>Github: <span><a href="https://github.com/colorlessenergy">https://github.com/colorlessenergy</a></span></p>
-      <p>Website: <span><a href="https://colorlessenergy.github.io/">https://colorlessenergy.github.io/</a></span></p>
+      <p><strong>Email:</strong> <span><a class="link" href="mailto:brianmunozdev@gmail.com">brianmunozdev@gmail.com</a></span></p>
+      <p><strong>Github:</strong> <span><a class="link" href="https://github.com/colorlessenergy">https://github.com/colorlessenergy</a></span></p>
+      <p><strong>Website:</strong> <span><a class="link" href="https://brianmunoz.co/">https://brianmunoz.co/</a></span></p>
     </header>
+
     <main>
+      <h2><span class="underline">Ski</span>lls</h2>
+      <div class="skills panel">
+        <p><strong>Web Technologies</strong></p>
+        <p>HTML5, CSS3, JavaScript ES6, Jekyll, Vue, React, Node, jQuery, Mongoose, MongoDB, Sass, Stylus, Shopify, Figma, Git & Github</p>
+        <p><strong>Languages</strong></p>
+        <p>English, Spanish</p>
+      </div>
 
-      <h2>SKILLS</h2>
-      <p><strong>Web Technologies</strong></p>
-      <p>HTML5, CSS3, JavaScript ES6, Jekyll, Vue, React, Node, jQuery, Mongoose, MongoDB, Sass, Stylus, Shopify, Figma, Git & Github</p>
-      <p><strong>Languages</strong></p>
-      <p>English, Spanish</p>
-      <p><strong>Platforms</strong></p>
-      <p>Windows, Ubuntu</p>
+      <h2><span class="underline">Work</span> Experience</h2>
+      <div class="work panel panel">
+        <p><strong>Conspire agency</strong></p>
+        <ul class="panel-list">
+          <li>worked with Shopify</li>
+          <li>Utilize Shopify Theme Kit to edit HTML and CSS in Shopify theme</li>
+          <li>Utilize Shopify dashboard to add plugins, pages, blog post, and URL redirects</li>
+        </ul>
+      </div>
 
-      <h2>Work Experience</h2>
-      <p><strong><span class="blue">Conspire agency</span> – worked with shopify dashboard and themekit</strong></p>
-      <p>- Utilize themekit to add custom html and css to shopify theme</p>
-      <p>- Utilize shopify dashboard to add plugins, pages, blog post, and url redirects</p>
-      <p>- Transform designs given to me into working websites</p>
-      <p>- Tech: Shopfiy, themekit, HTML, CSS, and JavaScript</p>
-
-      <h2>PROJECTS</h2>
-
-      <p><strong><a href="https://superchats.herokuapp.com/">superchats</a> - Progress Web App where you can chat with your friends by making group chats</strong></p>
-      <p>- Utilize socket.io to make the chat live and authenticated routes with JWT</p>
-      <p>- Utilize a Service Worker to make the app downloadable and added push notifications</p>
-      <p>- Tech: Vue, Node, Express, Mongoose, MongoDB, HTML, CSS, JavaScript, and Service Worker</p>
-
-      <p><strong><a href="https://letter-gg.web.app/">letter-gg</a> - Progressive Web App where people can read and create guides about a game known as teamfight tactics</strong></p>
-      <p>- Utilize firebase to authenticate users and request made by users to the database</p>
-      <p>- Utilize react to display data from firestore</p>
-      <p>
-        Utilize a Service Worker to make the web app downloadable and cache resources for faster load time
-      </p>
-      <p>- Tech: React, firebase & firestore, Service Worker, HTML, CSS, and JavaScript</p>
-
-      <p><strong><a href="https://codinglead.github.io">codinglead</a> - website where I post about front end and back end development</strong></p>
-      <p>- Utilize a static site generator to keep code dry</p>
-      <p>- has 10 to 15 users a month</p>
-      <p>- Tech: HTML, CSS, JavaScript, and Jekyll</p>
-
-      <h2>INTERESTS</h2>
-      <p>Reading about JavaScript</p>
-      <p>League of Legends</p>
-      <p>working out</p>
+      <h2><span class="underline">Proj</span>ects</h2>
+      <div class="projects-container">
+        <div class="projects-panel panel">
+          <a class="link" href="https://brianmunoz.co/soloq">Soloq.co</a>
+          <ul class="panel-list">
+            <li>E-commerce website, where I sell my art and items I have created</li>
+            <li>Utilize Stripe Checkout </li>
+            <li>Tech: React, Stripe, JavaScript, HTML, CSS</li>
+          </ul>
+        </div>
+  
+       <div class="projects-panel panel">
+        <a class="link" href="https://brianmunoz.co/letter-gg">letter-gg</a>
+        <ul class="panel-list">
+          <li>Progressive Web App where people can read and create guides about teamfight tactics</li>
+          <li>Utilize firebase to authenticate users and host the web app</li>
+          <li>Tech: React, Firebase, Firestore, Service Worker, HTML, CSS, and JavaScript</li>
+        </ul>
+       </div>
+  
+        <div class="projects-panel panel">
+          <a class="link" href="https://brianmunoz.co/lastpad">lastpad</a>
+          <ul class="panel-list">
+            <li>Progressive Web App to create notes with offline access</li>
+            <li>Developed a REST API to make CRUD operations using redux-thunk and redux</li>
+            <li>Utilize localStorage to create, read, update and delete notes offline</li>
+            <li>Tech: React, Redux, Node, Express, Mongoose, MongoDB, JavaScript, Service Worker</li>
+          </ul>
+        </div>
+      </div>
     </main>
   </div>
 </body>
